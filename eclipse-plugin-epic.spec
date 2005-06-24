@@ -42,8 +42,8 @@ wsparcie dla eSpell-a.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_eclipsedir}/{features,plugins}
 
-mv org.epic.updatesite/plugins/* $RPM_BUILD_ROOT%{_eclipsedir}/plugins/
-mv org.epic.updatesite/features/* $RPM_BUILD_ROOT%{_eclipsedir}/features/
+cp -r org.epic.updatesite/plugins/* $RPM_BUILD_ROOT%{_eclipsedir}/plugins/
+cp -r org.epic.updatesite/features/* $RPM_BUILD_ROOT%{_eclipsedir}/features/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
