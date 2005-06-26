@@ -33,7 +33,7 @@ EPIC to opensource'owe IDE dla Perla zbudowane na bazie ¶rodowiska
 Eclipse. Oferuje pod¶wietlanie sk³adni, sprawdzanie poprawno¶ci
 podczas pisania, wsparcie dla stosowania szablonów oraz debugger
 Perla. Zawiera tak¿e wtyczkê do obs³ugi wyra¿eñ regularnych oraz
-wsparcie dla eSpell-a.
+wsparcie dla eSpella.
 
 %prep
 %setup -q -c
@@ -42,8 +42,8 @@ wsparcie dla eSpell-a.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_eclipsedir}/{features,plugins}
 
-cp -r org.epic.updatesite/plugins/* $RPM_BUILD_ROOT%{_eclipsedir}/plugins/
-cp -r org.epic.updatesite/features/* $RPM_BUILD_ROOT%{_eclipsedir}/features/
+cp -r org.epic.updatesite/plugins/* $RPM_BUILD_ROOT%{_eclipsedir}/plugins
+cp -r org.epic.updatesite/features/* $RPM_BUILD_ROOT%{_eclipsedir}/features
 
 %clean
 rm -rf $RPM_BUILD_ROOT
