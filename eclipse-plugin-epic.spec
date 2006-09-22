@@ -1,20 +1,20 @@
 
 %define		_plug_name	epic
-%define		_rel_ver	0.3.0
-%define		_rel_date	20040711
+%define		_rel_ver	0.4.0
+%define		_rel_date	20060804
 
 Summary:	EPIC - Eclipse Perl Integration
 Summary(pl):	EPIC - wtyczka do ¶rodowiska Eclipse u³atwiaj±ca programowanie w Perlu
 Name:		eclipse-plugin-%{_plug_name}
 Version:	%{_rel_ver}
-Release:	0.1
+Release:	1
 License:	CPL v1.0
 Group:		Development/Languages
 Source0:	http://dl.sourceforge.net/e-p-i-c/org.%{_plug_name}.updatesite_%{version}_%{_rel_date}.zip
-# Source0-md5:	5ab8b866c599bd41f8dcb57564d5bc2d
+# Source0-md5:	4ea958644dc6a2c8ba6f34b158e9c34d
 URL:		http://e-p-i-c.sourceforge.net/
 BuildRequires:	unzip
-Requires:	eclipse >= 3.0
+Requires:	eclipse >= 3.1
 ExclusiveArch:	%{ix86} ppc ia64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
