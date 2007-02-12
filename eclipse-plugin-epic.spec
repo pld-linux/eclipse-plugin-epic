@@ -4,7 +4,7 @@
 %define		_rel_date	20060804
 
 Summary:	EPIC - Eclipse Perl Integration
-Summary(pl):	EPIC - wtyczka do ∂rodowiska Eclipse u≥atwiaj±ca programowanie w Perlu
+Summary(pl.UTF-8):   EPIC - wtyczka do ≈õrodowiska Eclipse u≈ÇatwiajƒÖca programowanie w Perlu
 Name:		eclipse-plugin-%{_plug_name}
 Version:	%{_rel_ver}
 Release:	1
@@ -28,11 +28,11 @@ assist, perldoc support, source formatter, templating support and a
 Perl debugger. A regular expression plugin and support for the eSpell
 spellchecker are also available.
 
-%description -l pl
-EPIC to opensource'owe IDE dla Perla zbudowane na bazie ∂rodowiska
-Eclipse. Oferuje pod∂wietlanie sk≥adni, sprawdzanie poprawno∂ci
-podczas pisania, wsparcie dla stosowania szablonÛw oraz debugger
-Perla. Zawiera takøe wtyczkÍ do obs≥ugi wyraøeÒ regularnych oraz
+%description -l pl.UTF-8
+EPIC to opensource'owe IDE dla Perla zbudowane na bazie ≈õrodowiska
+Eclipse. Oferuje pod≈õwietlanie sk≈Çadni, sprawdzanie poprawno≈õci
+podczas pisania, wsparcie dla stosowania szablon√≥w oraz debugger
+Perla. Zawiera tak≈ºe wtyczkƒô do obs≈Çugi wyra≈ºe≈Ñ regularnych oraz
 wsparcie dla eSpella.
 
 %prep
