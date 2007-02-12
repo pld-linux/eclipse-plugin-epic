@@ -4,7 +4,7 @@
 %define		_rel_date	20060804
 
 Summary:	EPIC - Eclipse Perl Integration
-Summary(pl.UTF-8):   EPIC - wtyczka do środowiska Eclipse ułatwiająca programowanie w Perlu
+Summary(pl.UTF-8):	EPIC - wtyczka do środowiska Eclipse ułatwiająca programowanie w Perlu
 Name:		eclipse-plugin-%{_plug_name}
 Version:	%{_rel_ver}
 Release:	1
