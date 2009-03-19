@@ -1,7 +1,7 @@
 
 %define		_plug_name	epic
-%define		_rel_ver	0.4.0
-%define		_rel_date	20060804
+%define		_rel_ver	0.6.13
+%define		_rel_date	20070808
 
 Summary:	EPIC - Eclipse Perl Integration
 Summary(pl.UTF-8):	EPIC - wtyczka do środowiska Eclipse ułatwiająca programowanie w Perlu
@@ -11,8 +11,8 @@ Release:	1
 License:	CPL v1.0
 Group:		Development/Languages
 Source0:	http://dl.sourceforge.net/e-p-i-c/org.%{_plug_name}.updatesite_%{version}_%{_rel_date}.zip
-# Source0-md5:	4ea958644dc6a2c8ba6f34b158e9c34d
-URL:		http://e-p-i-c.sourceforge.net/
+# Source0-md5:	8f1d7fa06c276084bba71ca4187e86f1
+URL:		http://www.epic-ide.org/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.1
 ExclusiveArch:	%{ix86} ppc ia64
